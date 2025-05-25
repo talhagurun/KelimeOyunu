@@ -1,0 +1,12 @@
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\bin\Debug\KelimeOyunu.exe.config
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\bin\Debug\KelimeOyunu.exe
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\bin\Debug\KelimeOyunu.pdb
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.csproj.AssemblyReference.cache
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.Form1.resources
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.Properties.Resources.resources
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.csproj.GenerateResource.cache
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.csproj.CoreCompileInputs.cache
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.exe
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.pdb
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.GameForm.resources
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.AddWord.resources

@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|c:\\users\\zwage\\desktop\\yaz\u0131l\u0131m yap\u0131m\u0131\\kelimeoyunu\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\addword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:addword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\addword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:addword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\databaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:databaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\gameform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:gameform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|KelimeOyunu||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF25267-794A-4D6B-9A3E-9222DDA4CCD7}|KelimeOyunu.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddWord.cs",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\AddWord.cs",
+              "RelativeDocumentMoniker": "AddWord.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\AddWord.cs",
+              "RelativeToolTip": "AddWord.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:16:54.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameForm.cs",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\GameForm.cs",
+              "RelativeDocumentMoniker": "GameForm.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\GameForm.cs",
+              "RelativeToolTip": "GameForm.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:34:37.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\GameForm.Designer.cs",
+              "RelativeDocumentMoniker": "GameForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\GameForm.Designer.cs",
+              "RelativeToolTip": "GameForm.Designer.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T22:09:51.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T13:44:02.326Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T14:21:30.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseConnect.cs",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\DatabaseConnect.cs",
+              "RelativeDocumentMoniker": "DatabaseConnect.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\DatabaseConnect.cs",
+              "RelativeToolTip": "DatabaseConnect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T14:27:45.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\GameForm.cs",
+              "RelativeDocumentMoniker": "GameForm.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\GameForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "GameForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T22:15:10.108Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddWord.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\AddWord.cs",
+              "RelativeDocumentMoniker": "AddWord.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\AddWord.cs [Tasar\u0131m]",
+              "RelativeToolTip": "AddWord.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:14:05.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-23T11:49:45.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KelimeOyunu",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\KelimeOyunu.csproj",
+              "RelativeDocumentMoniker": "KelimeOyunu.csproj",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\KelimeOyunu.csproj",
+              "RelativeToolTip": "KelimeOyunu.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-23T12:07:29.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Properties\\Settings.settings",
+              "RelativeToolTip": "Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-05-23T12:07:59.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:08:02.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T14:20:47.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ZWAGE\\Desktop\\Yaz\u0131l\u0131m Yap\u0131m\u0131\\KelimeOyunu\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T14:20:19.216Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
