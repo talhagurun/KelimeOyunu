@@ -30,9 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.checkBoxDarkMode = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.numericUpDownQuizWordCount = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownQuizWordCount)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -57,44 +56,36 @@
             this.checkBoxDarkMode.UseVisualStyleBackColor = true;
             this.checkBoxDarkMode.CheckedChanged += new System.EventHandler(this.checkBoxDarkMode_CheckedChanged);
             // 
-            // button1
+            // numericUpDownQuizWordCount
             // 
-            this.button1.Location = new System.Drawing.Point(467, 129);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 41);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Değiştir";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(324, 139);
-            this.numericUpDown1.Minimum = new decimal(new int[] {
+            this.numericUpDownQuizWordCount.Location = new System.Drawing.Point(324, 139);
+            this.numericUpDownQuizWordCount.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
-            this.numericUpDown1.TabIndex = 4;
-            this.numericUpDown1.Value = new decimal(new int[] {
+            this.numericUpDownQuizWordCount.Name = "numericUpDownQuizWordCount";
+            this.numericUpDownQuizWordCount.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDownQuizWordCount.TabIndex = 4;
+            this.numericUpDownQuizWordCount.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
+            this.numericUpDownQuizWordCount.ValueChanged += new System.EventHandler(this.QuizWordCount);
             // 
             // SettingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.numericUpDownQuizWordCount);
             this.Controls.Add(this.checkBoxDarkMode);
             this.Controls.Add(this.label1);
             this.Name = "SettingsForm";
             this.Text = "Settings";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.Load += new System.EventHandler(this.SettingsForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownQuizWordCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,7 +95,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBoxDarkMode;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numericUpDownQuizWordCount;
     }
 }

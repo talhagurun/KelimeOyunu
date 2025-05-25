@@ -72,7 +72,22 @@ namespace KelimeOyunu
 
                 if (sonuc > 0)
                 {
-                    MessageBox.Show("Giriş Başarılı");
+                    SqlCommand getIDCommand = new SqlCommand("SELECT UserID , UserName FROM Users WHERE UserName = @uname", conn);
+                    getIDCommand.Parameters.AddWithValue("@uname", txtLoginUsername.Text);
+
+                    using (SqlDataReader read = getIDCommand.ExecuteReader())
+                    {
+                        if(read.Read())
+                        {
+                            Session.userID = read.GetInt32(0);
+                            Session.userName = read.GetString(1);
+                            GameForm gameForm = new GameForm();
+                            this.Hide();
+                            gameForm.ShowDialog();
+                            this.Show();
+                        }
+                    }
+                        MessageBox.Show("Giriş Başarılı");
                 }
                 else
                 {
@@ -80,10 +95,7 @@ namespace KelimeOyunu
                 }
                 clearTextbox(this);
 
-                GameForm gameForm = new GameForm();
-                this.Hide();
-                gameForm.ShowDialog();
-                this.Show();
+                
 
             }
         }
