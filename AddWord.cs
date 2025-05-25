@@ -16,8 +16,28 @@ namespace KelimeOyunu
         public AddWord()
         {
             InitializeComponent();
+            changeTheme();
         }
 
+        public void changeTheme()
+        {
+            if (Settings.darkMode)
+            {
+                this.BackColor = Color.FromArgb(30, 30, 30);
+                this.ForeColor = Color.White;
+            }
+            else
+            {
+                this.BackColor = SystemColors.Control;
+                this.ForeColor = SystemColors.ControlText;
+            }
+
+            foreach (Control control in this.Controls)
+            {
+                control.BackColor = this.BackColor;
+                control.ForeColor = this.ForeColor;
+            }
+        }
         private void clearTextbox(Control control)
         {
             foreach (Control c in control.Controls)

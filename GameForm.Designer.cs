@@ -33,7 +33,7 @@ namespace KelimeOyunu
             this.btn_KelimeEkle = new System.Windows.Forms.Button();
             this.btn_Sinav = new System.Windows.Forms.Button();
             this.Analiz = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.settingsButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_KelimeEkle
@@ -64,24 +64,24 @@ namespace KelimeOyunu
             this.Analiz.TabIndex = 2;
             this.Analiz.Text = "Analiz";
             this.Analiz.UseVisualStyleBackColor = true;
-            this.Analiz.Click += new System.EventHandler(this.button1_Click);
+            this.Analiz.Click += new System.EventHandler(this.buttonAnalysis_Click);
             // 
-            // button1
+            // settingsButton
             // 
-            this.button1.Image = global::KelimeOyunu.Properties.Resources.icons8_setting_50;
-            this.button1.Location = new System.Drawing.Point(645, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 95);
-            this.button1.TabIndex = 3;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.settingsButton.Image = global::KelimeOyunu.Properties.Resources.icons8_setting_50;
+            this.settingsButton.Location = new System.Drawing.Point(645, 12);
+            this.settingsButton.Name = "settingsButton";
+            this.settingsButton.Size = new System.Drawing.Size(101, 95);
+            this.settingsButton.TabIndex = 3;
+            this.settingsButton.UseVisualStyleBackColor = true;
+            this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click_1);
             // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.settingsButton);
             this.Controls.Add(this.Analiz);
             this.Controls.Add(this.btn_Sinav);
             this.Controls.Add(this.btn_KelimeEkle);
@@ -100,6 +100,6 @@ namespace KelimeOyunu
         private System.Windows.Forms.Button btn_KelimeEkle;
         private System.Windows.Forms.Button btn_Sinav;
         private System.Windows.Forms.Button Analiz;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button settingsButton;
     }
 }
