@@ -68,25 +68,44 @@ namespace KelimeOyunu
                 signInCmd.Parameters.Add("@uname" , txtLoginUsername.Text);
                 signInCmd.Parameters.Add("@password", txtLoginPassword.Text);
 
-                int sonuc = (int)signInCmd.ExecuteScalar();
+                int result = (int)signInCmd.ExecuteScalar();
 
-                if (sonuc > 0)
+
+                if (result > 0)
                 {
                     SqlCommand getIDCommand = new SqlCommand("SELECT UserID , UserName FROM Users WHERE UserName = @uname", conn);
                     getIDCommand.Parameters.AddWithValue("@uname", txtLoginUsername.Text);
+                    int userID = (int)getIDCommand.ExecuteScalar();
 
-                    using (SqlDataReader read = getIDCommand.ExecuteReader())
+                    Session.userID = userID;
+
+                    SqlCommand darkModeCommand = new SqlCommand("SELECT darkMode FROM UserSettings WHERE UserID = @id ", conn);
+                    darkModeCommand.Parameters.AddWithValue("@id", userID);
+
+                    object darkModeResult = darkModeCommand.ExecuteScalar();
+
+                    if(darkModeResult != null && darkModeResult != DBNull.Value)
                     {
-                        if(read.Read())
-                        {
-                            Session.userID = read.GetInt32(0);
-                            Session.userName = read.GetString(1);
-                            GameForm gameForm = new GameForm();
-                            this.Hide();
-                            gameForm.ShowDialog();
-                            this.Show();
-                        }
+                        Settings.darkMode = Convert.ToBoolean(darkModeResult);
                     }
+                    else
+                    {
+                        Settings.darkMode=false;
+                    }
+
+
+                        using (SqlDataReader read = getIDCommand.ExecuteReader())
+                        {
+                            if (read.Read())
+                            {
+                                Session.userID = read.GetInt32(0);
+                                Session.userName = read.GetString(1);
+                                GameForm gameForm = new GameForm();
+                                this.Hide();
+                                gameForm.ShowDialog();
+                                this.Show();
+                            }
+                        }
                         MessageBox.Show("Giriş Başarılı");
                 }
                 else

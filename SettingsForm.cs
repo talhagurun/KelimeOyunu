@@ -28,23 +28,49 @@ namespace KelimeOyunu
             {
                 connection.Open();
 
-                SqlCommand command = new SqlCommand("SELECT QuizWordCount FROM UserSettings WHERE UserID = @id", connection);
+                SqlCommand command = new SqlCommand("SELECT QuizWordCount , darkMode FROM UserSettings WHERE UserID = @id", connection);
 
                 command.Parameters.AddWithValue("@id", userID);
 
                 object result = command.ExecuteScalar();
 
 
-                if(result != null && result !=DBNull.Value)
-                {
-                    int quizCount = Convert.ToInt32(result);
+                SqlDataReader read = command.ExecuteReader();
 
-                    numericUpDownQuizWordCount.Value = Math.Max(numericUpDownQuizWordCount.Minimum, Math.Min(quizCount, numericUpDownQuizWordCount.Maximum));
-
-                }
-                else
+                if(read.Read())
                 {
-                    numericUpDownQuizWordCount.Value = 10;
+
+                    //Sınavda çıkacak soru sayısı
+                    int quizWordCount = 10;
+
+                    if (read["QuizWordCount"] != DBNull.Value)
+                    {
+                        quizWordCount = Convert.ToInt32(read["QuizWordCount"]);
+                    }
+
+                    numericUpDownQuizWordCount.Value = quizWordCount;
+
+                    //Karanlık tema
+
+                    bool darkMode = false;
+
+                    if (read["darkMode"] != DBNull.Value)
+                    {
+                        darkMode = Convert.ToBoolean(read["darkMode"]);
+
+                    }
+                    checkBoxDarkMode.Checked = darkMode;
+
+                    if(darkMode)
+                    {
+                        changeTheme();
+                    }
+                    else
+                    {
+
+                    }
+
+
                 }
             }
         }
@@ -103,6 +129,30 @@ namespace KelimeOyunu
                 }
             }
 
+            using (SqlConnection connection = DatabaseConnect.BaglantiOlustur())
+            {
+                connection.Open();
+
+                SqlCommand command = new SqlCommand("SELECT COUNT(*) FROM UserSettings WHERE UserID = @id", connection);
+                command.Parameters.AddWithValue("@id", Session.userID);
+
+                int isDarkMode = (int)command.ExecuteScalar();
+
+                if(isDarkMode > 0)
+                {
+                    SqlCommand updateCommand = new SqlCommand("UPDATE UserSettings SET darkMode = @dark WHERE UserID = @id ", connection);
+                    updateCommand.Parameters.AddWithValue("@id ", Session.userID);
+                    updateCommand.Parameters.AddWithValue("@dark", Settings.darkMode);
+                    updateCommand.ExecuteNonQuery();
+                }
+                else
+                {
+                    SqlCommand addCommand = new SqlCommand("INSER INTO UserSettings (UserID , darkMode) VALUES(@id , @dark)", connection);
+                    addCommand.Parameters.AddWithValue("@id", Session.userID);
+                    addCommand.Parameters.AddWithValue("@dark", Settings.darkMode);
+                    addCommand.ExecuteNonQuery();
+                }
+            }
 
 
 
