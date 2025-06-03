@@ -41,6 +41,7 @@
             this.txtTurkishWord.Name = "txtTurkishWord";
             this.txtTurkishWord.Size = new System.Drawing.Size(158, 22);
             this.txtTurkishWord.TabIndex = 0;
+            this.txtTurkishWord.TextChanged += new System.EventHandler(this.txtTurkishWord_TextChanged);
             // 
             // label1
             // 

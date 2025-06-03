@@ -88,5 +88,10 @@ namespace KelimeOyunu
 
             
         }
+
+        private void txtTurkishWord_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

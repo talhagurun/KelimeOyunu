@@ -40,7 +40,7 @@ namespace KelimeOyunu
                 if(read.Read())
                 {
 
-                    //Sınavda çıkacak soru sayısı
+                    
                     int quizWordCount = 10;
 
                     if (read["QuizWordCount"] != DBNull.Value)
@@ -147,7 +147,7 @@ namespace KelimeOyunu
                 }
                 else
                 {
-                    SqlCommand addCommand = new SqlCommand("INSER INTO UserSettings (UserID , darkMode) VALUES(@id , @dark)", connection);
+                    SqlCommand addCommand = new SqlCommand("INSERT INTO UserSettings (UserID , darkMode) VALUES(@id , @dark)", connection);
                     addCommand.Parameters.AddWithValue("@id", Session.userID);
                     addCommand.Parameters.AddWithValue("@dark", Settings.darkMode);
                     addCommand.ExecuteNonQuery();

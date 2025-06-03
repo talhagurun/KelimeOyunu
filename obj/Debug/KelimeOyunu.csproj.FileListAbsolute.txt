@@ -11,3 +11,4 @@ C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.pdb
 C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.GameForm.resources
 C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.AddWord.resources
 C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.SettingsForm.resources
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.Quiz.resources

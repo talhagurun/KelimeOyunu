@@ -68,7 +68,7 @@
             this.numericUpDownQuizWordCount.Size = new System.Drawing.Size(120, 22);
             this.numericUpDownQuizWordCount.TabIndex = 4;
             this.numericUpDownQuizWordCount.Value = new decimal(new int[] {
-            1,
+            10,
             0,
             0,
             0});

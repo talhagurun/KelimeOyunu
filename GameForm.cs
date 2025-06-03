@@ -40,6 +40,10 @@ namespace KelimeOyunu
         }
         private void btn_Sinav_Click(object sender, EventArgs e)
         {
+            Quiz quiz = new Quiz();
+            this.Hide();
+            quiz.ShowDialog();
+            this.Show();
 
         }
         public void btn_Analysis()

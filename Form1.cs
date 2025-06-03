@@ -107,6 +107,9 @@ namespace KelimeOyunu
                             }
                         }
                         MessageBox.Show("Giriş Başarılı");
+                        
+                    Session.userID = Convert.ToInt32(result);
+                    
                 }
                 else
                 {
@@ -136,7 +139,6 @@ namespace KelimeOyunu
             using (SqlConnection conn = DatabaseConnect.BaglantiOlustur())
             {
                 conn.Open();
-
                 //Kullanıcı adı kullanılıyor mu kontrol et
                 String usernameQuery = "SELECT COUNT(*) FROM Users WHERE username = @uname";
                 SqlCommand usernameCmd = new SqlCommand(usernameQuery , conn);
@@ -150,24 +152,33 @@ namespace KelimeOyunu
                     return;
                 }
 
-                SqlCommand addUserCmd = new SqlCommand("SignUp", conn);
-                addUserCmd.CommandType = CommandType.StoredProcedure;
                 if(txtSigninPassword.Text != txtSigninPassword2.Text)
                 {
                     MessageBox.Show("Şifreler uyuşmuyor");
                     return;
                 }
 
-                addUserCmd.Parameters.AddWithValue("@uname", txtSigninUserName.Text);
-                addUserCmd.Parameters.AddWithValue("@password", txtSigninPassword.Text);
-                
-                addUserCmd.ExecuteNonQuery();
+                int newUserID;
 
-                MessageBox.Show("Kayıt Başarılı Giriş Yapabilirsiniz");
+                using (SqlCommand addUserCommand = new SqlCommand("SignUp", conn))
+                {
+                    addUserCommand.CommandType = CommandType.StoredProcedure;
+
+                    addUserCommand.Parameters.AddWithValue("@uname", txtSigninUserName.Text);
+                    addUserCommand.Parameters.AddWithValue("@password", txtSigninPassword.Text);
+                    newUserID = Convert.ToInt32(addUserCommand.ExecuteScalar());
+                }
+
+                using (SqlCommand addWordsCommand = new SqlCommand("InsertWordsForNewUser", conn))
+                {
+                    addWordsCommand.CommandType = CommandType.StoredProcedure;
+                    addWordsCommand.Parameters.AddWithValue("@UserID", newUserID);
+                    addWordsCommand.ExecuteNonQuery();
+                }
+
+                MessageBox.Show("Kayıt başarılı giriş yapabilirsiniz");
 
                 clearTextbox(this);
-
-                GameForm gameForm = new GameForm();
             }
         }
 
@@ -179,6 +190,22 @@ namespace KelimeOyunu
         private void txtLoginPassword_TextChanged(object sender, EventArgs e)
         {
 
+        }
+        private void newUserAddWords(int userID)
+        {
+            using (SqlConnection connection = DatabaseConnect.BaglantiOlustur())
+            {
+                connection.Open();
+
+                SqlCommand command = new SqlCommand(@"INSERT INTO UserWordProgress (UserID , WordID , CorrectCount , LastCorrectDate
+                                                        SELECT @UserID , WordID , 0 , NULL
+                                                        FROM Words 
+                                                        WHERE WordID NOT IN (
+                                                            SELECT WordID FROM UserWordProgress WHERE UserID = @userID)" , connection);
+
+                command.Parameters.AddWithValue("@userID", userID);
+                command.ExecuteNonQuery();
+            }
         }
     }
 }
