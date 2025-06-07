@@ -43,6 +43,27 @@ namespace KelimeOyunu
         public WordleForm()
         {
             InitializeComponent();
+            changeTheme();
+        }
+
+        public void changeTheme()
+        {
+            if (Settings.darkMode)
+            {
+                this.BackColor = Color.FromArgb(30, 30, 30);
+                this.ForeColor = Color.White;
+            }
+            else
+            {
+                this.BackColor = SystemColors.Control;
+                this.ForeColor = SystemColors.ControlText;
+            }
+
+            foreach (Control control in this.Controls)
+            {
+                control.BackColor = this.BackColor;
+                control.ForeColor = this.ForeColor;
+            }
         }
 
         private void WordleForm_Load(object sender, EventArgs e)
