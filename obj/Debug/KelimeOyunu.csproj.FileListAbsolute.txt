@@ -12,3 +12,10 @@ C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.Game
 C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.AddWord.resources
 C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.SettingsForm.resources
 C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.Quiz.resources
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.AnalysisForm.resources
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\bin\Debug\itextsharp.dll
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\bin\Debug\itextsharp.xml
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOy.412F2692.Up2Date
+C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\KelimeOyunu.WordleForm.resources

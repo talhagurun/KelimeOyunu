@@ -77,7 +77,20 @@ namespace KelimeOyunu
 
         private void buttonAnalysis_Click(object sender, EventArgs e)
         {
+            AnalysisForm analysisForm = new AnalysisForm();
+            this.Hide();
+            analysisForm.ShowDialog();
+            this.Show();
+        }
 
+      
+
+        private void btnWordle_Click(object sender, EventArgs e)
+        {
+            WordleForm wordleForm = new WordleForm();
+            this.Hide();
+            wordleForm.ShowDialog();
+            this.Show();
         }
     }
 }

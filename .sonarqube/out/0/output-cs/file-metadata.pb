@@ -1,0 +1,24 @@
+}
+rC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.csutf-8`
+UC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Properties\Settings.Designer.csutf-8a
+VC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Properties\Resources.Designer.csutf-8G
+>C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Words.csutf-8W
+LC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\WordleForm.Designer.csutf-8Y
+NC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\SettingsForm.Designer.csutf-8L
+CC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\WordleForm.csutf-8N
+EC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\SettingsForm.csutf-8J
+AC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Settings.csutf-8I
+@C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Session.csutf-8Q
+FC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Quiz.Designer.csutf-8F
+=C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Quiz.csutf-8Y
+PC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Properties\AssemblyInfo.csutf-8I
+@C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Program.csutf-8U
+JC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\GameForm.Designer.csutf-8J
+AC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\GameForm.csutf-8R
+GC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Form1.Designer.csutf-8G
+>C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\Form1.csutf-8Q
+HC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\DatabaseConnect.csutf-8Y
+NC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\AnalysisForm.Designer.csutf-8N
+EC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\AnalysisForm.csutf-8T
+IC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\AddWord.Designer.csutf-8I
+@C:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\AddWord.csutf-8

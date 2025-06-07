@@ -87,6 +87,7 @@ namespace KelimeOyunu
                     SqlCommand resetCorrectCountCommand = new SqlCommand(@"
                     UPDATE UserWordProgress
                     SET CorrectCount = 0,
+                        WrongCount = WrongCount + 1,
                         LastCorrectDate = NULL,
                         NextRepeatDate = NULL
                     WHERE UserID = @UserID AND WordID = @WordID" , connection);

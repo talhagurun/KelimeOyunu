@@ -1,0 +1,1 @@
+VRHC:\Users\ZWAGE\Desktop\Yazılım Yapımı\KelimeOyunu\KelimeOyunu.csproj�	CSharp7_3

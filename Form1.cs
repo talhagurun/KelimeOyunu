@@ -71,53 +71,72 @@ namespace KelimeOyunu
                 int result = (int)signInCmd.ExecuteScalar();
 
 
-                if (result > 0)
+                try
                 {
-                    SqlCommand getIDCommand = new SqlCommand("SELECT UserID , UserName FROM Users WHERE UserName = @uname", conn);
-                    getIDCommand.Parameters.AddWithValue("@uname", txtLoginUsername.Text);
-                    int userID = (int)getIDCommand.ExecuteScalar();
-
-                    Session.userID = userID;
-
-                    SqlCommand darkModeCommand = new SqlCommand("SELECT darkMode FROM UserSettings WHERE UserID = @id ", conn);
-                    darkModeCommand.Parameters.AddWithValue("@id", userID);
-
-                    object darkModeResult = darkModeCommand.ExecuteScalar();
-
-                    if(darkModeResult != null && darkModeResult != DBNull.Value)
+                    if (result > 0)
                     {
-                        Settings.darkMode = Convert.ToBoolean(darkModeResult);
-                    }
-                    else
-                    {
-                        Settings.darkMode=false;
-                    }
+                        SqlCommand getIDCommand = new SqlCommand("SELECT UserID , UserName FROM Users WHERE UserName = @uname", conn);
+                        getIDCommand.Parameters.AddWithValue("@uname", txtLoginUsername.Text);
 
+                        int userID = -1;
+                        string userName = "";
 
                         using (SqlDataReader read = getIDCommand.ExecuteReader())
                         {
                             if (read.Read())
                             {
-                                Session.userID = read.GetInt32(0);
-                                Session.userName = read.GetString(1);
-                                GameForm gameForm = new GameForm();
-                                this.Hide();
-                                gameForm.ShowDialog();
-                                this.Show();
+                                userID = read.GetInt32(0);
+                                userName = read.GetString(1);
                             }
                         }
-                        MessageBox.Show("Giriş Başarılı");
-                        
-                    Session.userID = Convert.ToInt32(result);
-                    
-                }
-                else
-                {
-                    MessageBox.Show("Kullanıcı adı veya şifre yanlış");
-                }
-                clearTextbox(this);
 
-                
+                        if (userID != -1)
+                        {
+                            Session.userID = userID;
+                            Session.userName = userName;
+
+                            SqlCommand darkModeCommand = new SqlCommand("SELECT darkMode FROM UserSettings WHERE UserID = @id", conn);
+                            darkModeCommand.Parameters.AddWithValue("@id", userID);
+
+                            object darkModeResult = darkModeCommand.ExecuteScalar();
+
+                            if (darkModeResult != null && darkModeResult != DBNull.Value)
+                            {
+                                Settings.darkMode = Convert.ToBoolean(darkModeResult);
+                            }
+                            else
+                            {
+                                Settings.darkMode = false;
+                            }
+
+                            MessageBox.Show("Giriş Başarılı");
+
+                            GameForm gameForm = new GameForm();
+                            this.Hide();
+                            gameForm.ShowDialog();
+                            this.Show();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Kullanıcı bilgileri alınamadı.");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Kullanıcı adı veya şifre yanlış");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Bir hata oluştu: " + ex.Message);
+                }
+                finally
+                {
+                    clearTextbox(this);
+                }
+
+
+
 
             }
         }
@@ -129,7 +148,7 @@ namespace KelimeOyunu
 
         private void btnSignin_Click(object sender, EventArgs e)
         {
-            //Şifrelerin uyuşup uyuşmadığını kontrol et
+           
             if(txtSigninPassword.Text != txtSigninPassword2.Text)
             {
                 MessageBox.Show("Şifreler uyuşmuyor");
@@ -139,7 +158,7 @@ namespace KelimeOyunu
             using (SqlConnection conn = DatabaseConnect.BaglantiOlustur())
             {
                 conn.Open();
-                //Kullanıcı adı kullanılıyor mu kontrol et
+                
                 String usernameQuery = "SELECT COUNT(*) FROM Users WHERE username = @uname";
                 SqlCommand usernameCmd = new SqlCommand(usernameQuery , conn);
                 usernameCmd.Parameters.AddWithValue("@uname", txtSigninUserName.Text);

@@ -16,9 +16,35 @@ namespace KelimeOyunu
         public AddWord()
         {
             InitializeComponent();
+            LoadTopic();
             changeTheme();
         }
 
+        private void LoadTopic()
+        {
+            cmbTopic.Items.Clear();
+
+            using (SqlConnection connection = DatabaseConnect.BaglantiOlustur())
+            {
+                connection.Open();
+
+                string query = "SELECT DISTINCT Topic FROM Words WHERE Topic IS NOT NULL AND Topic <> ''";
+                SqlCommand cmd = new SqlCommand(query, connection);
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    cmbTopic.Items.Add(reader["Topic"].ToString());
+                }
+
+                reader.Close();
+            }
+
+            if (cmbTopic.Items.Count > 0)
+                cmbTopic.SelectedIndex = 0;
+        }
+        
         public void changeTheme()
         {
             if (Settings.darkMode)
@@ -77,6 +103,7 @@ namespace KelimeOyunu
 
                 addWordCmd.Parameters.AddWithValue("@english", txtEnglishWord.Text);
                 addWordCmd.Parameters.AddWithValue("@turkish" , txtTurkishWord.Text);
+                addWordCmd.Parameters.AddWithValue("@topic", cmbTopic.SelectedItem.ToString());
 
                 addWordCmd.ExecuteNonQuery();
 
@@ -90,6 +117,16 @@ namespace KelimeOyunu
         }
 
         private void txtTurkishWord_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEnglishWord_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
