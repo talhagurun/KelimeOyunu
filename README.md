@@ -28,10 +28,10 @@ KelimeOyunu, İngilizce-Türkçe kelime bilgisini geliştirmeyi hedefleyen bir m
 
  Quiz tekrar prensibi
 
- KULLANILAN TEKNOLOJİLER :            AÇIKLAMA :
-  - C# (.NET Framework)               Uygulama ana dili ve platformu
-  - Windows Forms                     Masaüstü arayüz
-  - SQL Server                        Veritabanı yönetimi
-  - Git & GitHub                      Versiyon kontrolü
+ KULLANILAN TEKNOLOJİLER :            
+  - C# (.NET Framework)               
+  - Windows Forms                     
+  - SSMS                        
+  - Git & GitHub                      
 
 
